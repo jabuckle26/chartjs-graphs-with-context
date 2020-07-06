@@ -1,3 +1,6 @@
+This is a simple React App used to demonstrate how chartjs can be used with the useContext Hook.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

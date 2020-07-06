@@ -4,7 +4,6 @@ import { GlobalContext } from '../context/GlobalState';
 
 export const GraphContainer = () => {
     const {barData} = useContext(GlobalContext);
-    const [chartReference, setChartReference] = useState();
 
     const [barOptions, setBarOptions] = useState({
         options: {
@@ -33,7 +32,6 @@ export const GraphContainer = () => {
         <div style={containerHeight}>
             <HorizontalBar data={barData}
             options={barOptions.options}
-            ref={chartReference}
             />
         </div>
     )

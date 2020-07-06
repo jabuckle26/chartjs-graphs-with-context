@@ -4,7 +4,7 @@ import AppReducer from './AppReducer';
 //Initial state
 const initialState = {
     barData: {
-        labels: ['label 1', 'label 2', 'label 3', 'label 4'],
+        labels: ['Label 1', 'Label 2', 'Label 3', 'Label 4'],
         datasets: [
             {
                 data: [0, 0, 0, 0],
